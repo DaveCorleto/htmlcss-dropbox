@@ -5,6 +5,8 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+/* Stili dell'header/nav  */
+
 header {
     
 }
@@ -44,3 +46,67 @@ ul li {
     background-color: rgb(94, 94, 248);
     padding: 7px;
 }
+
+/* Stili Sezione Jumbotron */
+
+.jumbotron {
+    width: 100%;
+    background-color: aqua;
+    /* height: 700px; */
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.container70 {
+    width: 70%;
+    /* display: flex; */
+    height: 100%;
+    margin: auto;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: 900;
+    text-align: left;
+    padding: 30px;
+}
+
+.jumbottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.jumbo-left {
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* flex-basis: 45%; */
+    width: 45%;
+
+}
+
+.jumbo-left div {
+    margin-top: 20px;
+    
+}
+
+.jumbo-right {
+    flex-basis: 55%;
+    position: relative;
+
+}
+
+#jumbo-img {
+    width: 100%;
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -50px;
+}
+
+#arrow {
+    font-size: 45px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
