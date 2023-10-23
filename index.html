@@ -82,21 +82,99 @@
 
     <main>
         <!-- Div container 60 (larghezza %) -->
+
         <div class="container60">
 
             <!-- piano di business  -->
 
-            <div class="business-plan">
+            <div class="business-top">
 
-                <div class="title">
-
+                <h2>Trova il piano Business che fa per te</h2>
+                <div>
+                    <div class="plan">
+                        <input type="radio" name="mensile" id="mensile">
+                        Fatturazione mensile
+                        <input type="radio" name="annuale" id="annuale">
+                        Fatturazione annuale
+                    </div>
+                    <div></div>
                 </div>
+            </div>
+
+            <div class="business-plan">
 
                 <!-- Mini-Sezione piani di business  -->
 
                 <div class="row">
+
                     <div class="col">
 
+                        <div class="plan-type">
+                            <i class="fa-solid fa-user"></i>
+                            Singolo
+                        </div>
+
+                        <!-- Tipo di abbonamento... -->
+
+                        <div class="subscription">
+                            <h3>Professional</h3>
+                            <div class="price">&euro;12,00</div>
+                            <div class="frequency">/mese</div>
+                        </div>
+
+
+                    <!-- Caratteristiche del piano  -->
+
+                        <ul class="features">
+                            <li><i class="fa-solid fa-user"></i>  1 utente</li>
+                            <li><i class="fa-solid fa-folder"></i>  5 TB di spazio di archiviazione sicuro</li>
+                            <li><i class="fa-solid fa-share-nodes"></i>   Funzioni di produttività Premium e condivisione file semplice e sicura</li>
+                        </ul>
+
+                        <!-- Bottone Prova gratuita 30 giorni  -->
+                        <div class="free-subscription">
+                            <a class="button">Prova Gratis per 30 giorni</a>
+                        </div>
+                        
+                        <!-- Oppure Acquista ora  -->
+
+                        <div class="buy">
+                        oppure <span class="buy-now">acquista ora</span>
+                        </div>
+                        <div id="pad">
+                            <div class="line">linear</div>
+                        </div>
+
+                        <!-- Punti Salienti del piano  -->
+
+                        <div class="highlights">
+
+                            <h4>Punti Salienti del piano</h4>
+
+                            <ul class="list">
+                                <li>Invia File fino a 100 GB con Dropbox Transfer     
+                                </li>
+                                <li>
+                                    Cartelle offline su dispositivi mobili
+                                </li>
+                            </ul>
+
+                        </div>
+                        
+
+                    </div>
+
+                    <div class="col">
+                        <div class="plan-type">
+                            <i class="fa-solid fa-users"></i>
+                            Team
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="plan-type">
+                            <i class="fa-solid fa-building"></i>
+                            Azienda
+                        </div>
                     </div>
                 </div>
 

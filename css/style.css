@@ -110,3 +110,120 @@ h1 {
     padding-bottom: 20px;
 }
 
+/* Inizio sezione Main  */
+
+/* Container60 allinea tutto fino a Brand Gallery esclusa */
+
+.container60 {
+    margin: auto;
+    width: 60%;
+}
+
+/* Piano di Business  */
+
+/* Business Top  */
+
+.business-top { padding-top: 100px;
+}
+
+.plan {
+    padding-top: 15px;
+}
+
+.business-top h2 {
+    padding: 5px;
+    font-size: 45px;
+
+}
+.plan input[type="radio"] { 
+    padding-right: 20px;
+}
+
+/* Business Plan diviso in 3 macro-colonne. Comprende anche la sezione sottostante ENterprise  */
+
+.business-plan {
+    margin-top: 80px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 30%;
+    border: 1px solid black;
+}
+
+.plan-type {
+    text-align: center;
+    padding: 8px;
+    border-bottom: 1px solid black;
+
+}
+
+/* Stile per tipo di abbonamento */
+
+.subscription, .free-subscription, .buy, #pad, .highlights {
+    padding: 15px;
+}
+
+.subscription {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.subscription h3 {
+    font-size: 20px;
+    font-weight: 900;
+}
+.price {
+    font-weight: 900;
+}
+.frequency {
+    color: gray;
+    font-style: italic;
+    font-size: 10px;
+}
+.features {
+    list-style: none;
+    padding-left: 0;
+}
+
+.free-subscription {
+    margin: auto;
+    text-align: center;
+}
+.buy-now {
+    color: rgb(103, 103, 236);
+    text-decoration: underline;
+}
+
+#pad {
+    
+}
+
+.line {
+    width: 40px;
+    padding-left: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    border-top: 1px solid gray;
+}
+
+.highlights h4 {
+    font-weight: 900;
+}
+
+.highlights {
+    display: flex;
+    flex-direction: column;
+}
+
+.list {
+     list-style: none;
+}
