@@ -143,6 +143,7 @@ h1 {
 
 .business-plan {
     margin-top: 80px;
+    margin-bottom: 100px;
 }
 
 .row {
@@ -157,6 +158,10 @@ h1 {
     border: 1px solid black;
 }
 
+.col:only-child {
+    padding: 30px;
+}
+
 .plan-type {
     text-align: center;
     padding: 8px;
@@ -167,7 +172,7 @@ h1 {
 /* Stile per tipo di abbonamento */
 
 .subscription, .free-subscription, .buy, #pad, .highlights {
-    padding: 15px;
+    padding: 20px;
 }
 
 .subscription {
@@ -190,7 +195,7 @@ h1 {
 }
 .features {
     list-style: none;
-    padding-left: 0;
+    padding-left: 10px;
 }
 
 .free-subscription {
@@ -217,6 +222,7 @@ h1 {
 
 .highlights h4 {
     font-weight: 900;
+    padding-left: 15px;
 }
 
 .highlights {
@@ -225,5 +231,45 @@ h1 {
 }
 
 .list {
-     list-style: none;
+    list-style: none;
+     padding: 0;
+}
+
+.list li {
+    padding-left: 10px;
+}
+
+.list li::before {
+    color: rgb(127, 127, 230);
+    content: '\f00c';
+    padding-right: 10px;
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900;
+    font-size: 20px;
+
+}
+
+/* Mini sezione Enterprise  */
+
+.enterprise {
+    width: 100%;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    border: 1px solid black;
+}
+
+.enter-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.enter-left {
+    flex-basis: 65%;
+    display: flex;
+    flex-direction: column;
+}
+
+.enter-right {
+    flex-basis: 30%;
 }
