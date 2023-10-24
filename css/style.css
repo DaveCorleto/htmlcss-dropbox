@@ -523,11 +523,51 @@ footer {
     background-color: black;
     color: white;
     margin: auto;
-    height: 500px;
+    height: 550px;
+    position: relative;
 }
 
 .row-foot {
     display: flex;
     width: 75%;
+    padding-top: 100px;
+    margin: auto;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
 
 }
+
+.infobox {
+    flex-basis: calc(100% / 5);
+    color: white;
+}
+.infobox ul {
+    list-style: none;
+}
+.mini-title {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.language {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: grey;
+    display: flex;
+    margin-left: 40px;
+    border-top: 1px solid grey;
+    position: absolute;
+    bottom: 25px;
+    left: 190px;
+}
+
+.language > * {
+    padding-right: 15px;
+    padding-left: 15px;
+    
+    
+}
+
+
+
