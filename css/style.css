@@ -2,7 +2,7 @@ body {
     margin: 0;
     margin: auto;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /* Stili dell'header/nav  */
@@ -524,7 +524,6 @@ footer {
     color: white;
     margin: auto;
     height: 550px;
-    position: relative;
 }
 
 .row-foot {
@@ -535,6 +534,7 @@ footer {
     justify-content: space-between;
     flex-wrap: wrap;
     padding-bottom: 50px;
+    position: relative;
 
 }
 
@@ -558,8 +558,8 @@ footer {
     margin-left: 40px;
     border-top: 1px solid grey;
     position: absolute;
-    bottom: 25px;
-    left: 190px;
+    bottom: -50px;
+    left: 0;
 }
 
 .language > * {
