@@ -387,7 +387,7 @@ h1 {
 
 .row-brand {
     display: flex;
-    flex-basis: calc(100% / 3) * 2;
+    flex-basis: calc(100% / 1.5);
 }
 
 .left, .center, .right {
@@ -411,9 +411,33 @@ h1 {
     max-width: 50%;
     margin: auto;
     display: block;
-    align-items: center;   
-    color: white;
+    align-items: center; 
+    filter: brightness(0);
+    filter: invert(1);
+
 }
+
+.center {
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    padding: 30px;
+    background-color: rgb(250, 242, 232);
+    scroll-behavior: auto;
+}
+
+.center > p, div {
+    font-weight: 100;
+}
+
+.gray-row {
+    border-bottom: 1px solid gray;
+    width: 25%;
+    height: 13%;
+    align-items: center;
+}
+
+.none {opacity: 0;}
 
 /* Stili dei background  */
 
@@ -421,3 +445,89 @@ h1 {
 .red {background-color: rgb(129, 9, 9)}
 .lightblue {background-color: rgb(67, 175, 241);}
 .red-orange {background-color: rgb(236, 41, 41);}
+.lightred {background-color: red;}
+.aliceblue {background-color: rgb(173, 215, 252);}
+.blue {background-color: blue;}
+.yellow {background-color: rgb(214, 214, 4);}
+
+/* Brand Bottom  */
+
+.brand-bottom {
+    background-color: rgb(173, 215, 252) ;
+    margin: auto;
+    width: 100%;
+    }
+
+.cont-brand-bottom {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.cont-brand-bottom h3 {
+    color: rgb(129, 9, 9);
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.back-white {
+    background-color: white;
+    color: black;
+}
+
+/* Sezione FAQ  */
+
+.faq {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.title, .questions {
+    font-weight: 700;
+    border-bottom: 1px solid rgb(170, 167, 167);
+}
+
+.title {
+    font-size: 30px;
+    padding-bottom: 44px;
+}
+
+.questions {
+    font-size: 12px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+
+.questions::after {
+    color: black;
+    content: '\f107';
+    padding-right: 30px;
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900;
+    font-size: 12px;
+    float: right;
+
+}
+
+/* Sezione Footer  */
+
+footer {
+    background-color: black;
+    color: white;
+    margin: auto;
+    height: 500px;
+}
+
+.row-foot {
+    display: flex;
+    width: 75%;
+
+}
