@@ -272,11 +272,30 @@ h1 {
 
 .enter-right {
     flex-basis: 30%;
-    padding-top: 20px;
-    margin: auto;
+    padding-top: 30px;
     text-align: center;
 }
 
 .enter-left h6 {
     margin: 0;
+}
+
+/* Sezione Partner  */
+
+.partner {
+    display: flex;
+    margin-top: 150px;
+}
+
+.partner-img {
+    flex-basis: 60%;
+}
+
+.partner-img img {
+    max-width: 100%;
+}
+
+.partner-text {
+    flex-basis: 40%;
+    padding:30px;
 }
