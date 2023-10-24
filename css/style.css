@@ -7,9 +7,6 @@ body {
 
 /* Stili dell'header/nav  */
 
-header {
-    
-}
 
 nav {
     height: 80px;
@@ -44,7 +41,7 @@ ul li {
 .button {
     color: white;
     background-color: rgb(94, 94, 248);
-    padding: 7px;
+    padding: 10px;
 }
 
 /* Stili Sezione Jumbotron */
@@ -132,7 +129,7 @@ h1 {
 
 .business-top h2 {
     padding: 5px;
-    font-size: 45px;
+    font-size: 35px;
 
 }
 .plan input[type="radio"] { 
@@ -207,9 +204,6 @@ h1 {
     text-decoration: underline;
 }
 
-#pad {
-    
-}
 
 .line {
     width: 40px;
@@ -283,6 +277,8 @@ h1 {
 /* Sezione Partner  */
 
 .partner {
+    width: 100%;
+    margin: auto;
     display: flex;
     margin-top: 150px;
 }
@@ -297,5 +293,131 @@ h1 {
 
 .partner-text {
     flex-basis: 40%;
-    padding:30px;
+    padding:45px;
+    padding-top: 20px;
 }
+
+.partner-text > * {
+    padding-top: 30px;
+}
+
+.partner-text h3 {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.back-none {
+    background: none;
+    color: black;
+    border: 1px solid black;
+}
+
+/* Sezione Dropbox-Business  */
+
+.dropbox-business {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.dropbox-business h2 {
+    font-size: 35px;
+    padding-bottom: 25px;
+}
+
+.row1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.col-business {
+    flex-basis: 30%;
+
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.bus-img {
+    flex-basis: 40%;
+}
+
+.bus-img img {
+    max-width: 100%;
+}
+
+.sub-title {
+    flex-basis: 20%;
+}
+
+.paragraph {
+    flex-basis: 30%;
+    font-weight: 100;
+}
+
+/* Sezione Business Bottom  */
+
+.business-bottom {
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 150px;
+}
+
+.business-bottom div {
+    padding-top: 20px;
+}
+
+/* Brand Gallery */
+
+.brand-gallery {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.row-brand {
+    display: flex;
+    flex-basis: calc(100% / 3) * 2;
+}
+
+.left, .center, .right {
+    flex-basis: calc(100% / 3);
+}
+
+.left, .right {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.square {
+    flex-basis: 50%;
+    aspect-ratio: 1/1;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.square img {
+    max-width: 50%;
+    margin: auto;
+    display: block;
+    align-items: center;   
+    color: white;
+}
+
+/* Stili dei background  */
+
+.lightgreen {background-color: lightgreen;}
+.red {background-color: rgb(129, 9, 9)}
+.lightblue {background-color: rgb(67, 175, 241);}
+.red-orange {background-color: rgb(236, 41, 41);}
