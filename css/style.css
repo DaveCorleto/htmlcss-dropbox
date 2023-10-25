@@ -430,6 +430,10 @@ h1 {
     box-sizing: border-box;
 }
 
+.square:hover {
+    border: 10px solid rgba(0, 0, 0, 0.445);
+}
+
 .square img {
     max-width: 50%;
     margin: auto;
