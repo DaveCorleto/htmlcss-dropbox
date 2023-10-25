@@ -9,11 +9,16 @@ body {
 
 
 nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 500;
     height: 80px;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: white;
 }
 
 .function {
@@ -47,6 +52,7 @@ ul li {
 /* Stili Sezione Jumbotron */
 
 .jumbotron {
+    padding-top: 80px;
     width: 100%;
     background-color: aqua;
     /* height: 700px; */
